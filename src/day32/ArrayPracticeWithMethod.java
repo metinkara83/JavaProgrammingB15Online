@@ -55,6 +55,6 @@ public class ArrayPracticeWithMethod {
         }
         else {
             System.out.println("Someone has failed");
-        }
+    }
     }
 }

@@ -20,6 +20,7 @@ package day35;
             // These wrapper classes also have useful static methods we can use directly
             // One of the common useful use case of Wrapper classes is
             // turning String into primitive value using the static parse Method
+
             byte   bValue = Byte.parseByte("123");
             short  sValue = Short.parseShort("1230");
             int    iValue = Integer.parseInt("12300");
@@ -39,7 +40,7 @@ package day35;
             System.out.println("\n-----------Integer-----------------");
 
             Integer integerObj = Integer.valueOf("120"); //or Integer.valueOf(120)
-            //or old way (same of all primitives other than Character)
+            // or old way (same of all primitives other than Character)
             // Integer integerObj = new Integer("120");
             System.out.println("integerObj = " + integerObj);
             System.out.println("Get Integer Object-> Integer.valueOf(10) = "     + Integer.valueOf(10));
@@ -93,7 +94,7 @@ package day35;
 
             System.out.println("Get boolean primitive-> Boolean.getBoolean(\"TRUE\") = "    + Boolean.getBoolean("TRUE"));
             System.out.println("Get boolean primitive-> Boolean.getBoolean(\"EFG\")  = "    + Boolean.getBoolean("EFG"));
-            System.out.println("Get boolean primitive-> Boolean.parseBoolean(\"False\") = " + Boolean.parseBoolean("False"));
+            System.out.println("Get boolean primitive-> Boolean.parseBoolean(\"False\") = " + Boolean.parseBoolean("false"));
             System.out.println("Get boolean primitive-> Boolean.parseBoolean(\"XYZ\") = "   + Boolean.parseBoolean("XYZ"));
             // all Wrapper classes has toString method to turn Object into String
             System.out.println("Convert true to String :Boolean.toString(true) " + Boolean.toString(true));

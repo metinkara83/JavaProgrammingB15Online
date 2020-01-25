@@ -9,7 +9,7 @@ public class ArrayListPractice {
 
         /*
         Create an ArrayList of String to store 12 elements.
-        Each element should contains product information separated by comma  :
+        Each element should contain product information separated by comma  :
         at index 0 -->> iPhone 6s, 499 , 18.71 and so on
          */
         ArrayList<String> productLst

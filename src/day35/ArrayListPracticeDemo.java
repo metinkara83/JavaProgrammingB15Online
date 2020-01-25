@@ -96,7 +96,7 @@ public class ArrayListPracticeDemo {
         // get an array out of your list by defining type and new array size.
         // if the array size is less than actual item count, it will correct itself
         // if array size is more than items count, it will fill up with null
-        //lst.toArray(new String[0])
+        // lst.toArray(new String[0])
 
         System.out.println("\nGetting array out of lst");
         String[] arrOutOfList = lst.toArray(new String[0]);

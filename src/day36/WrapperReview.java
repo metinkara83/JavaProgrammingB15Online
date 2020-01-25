@@ -11,7 +11,7 @@ public class WrapperReview {
         // Auto-boxing : primitive to wrapper type conversion
         Integer i3 = 45; // -->> 45 -->> new Integer(45); (Auto-boxing)
 
-        int i4 = 54;
+        int i4 = 54; // nothing happens in here
         // Auto-unboxing : wrapper type to primitive type conversion
         int i5 = new Integer(100); // new Integer(100) -->> 100
 

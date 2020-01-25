@@ -23,6 +23,6 @@ public class CharacterPractice {
         }
         System.out.println("String is : "+nums);
         Integer numbers = Integer.parseInt(nums);
-        System.out.println("numbers = " + numbers);
+        System.out.println("numbers = " + (numbers+1));
     }
 }

@@ -7,7 +7,7 @@ public class TrimAndIsEmpty {
         String message = "    REPL IS COMING !  ";
 
         System.out.println("message character count is "+message.length());
-        // trim method is ised to take out spaces on two sides, NOT IN BETWEEN!!!
+        // trim method is used to take out spaces on two sides, NOT IN BETWEEN!!!
         System.out.println(message.trim());
 
         message = message.trim();

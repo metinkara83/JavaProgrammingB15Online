@@ -16,6 +16,7 @@ public class MethodWithParameterArray {
     }
 
     public static void changeArrayFirstItemTo100 (int[] numbers){
+
         numbers[0]=100;
     }
 }

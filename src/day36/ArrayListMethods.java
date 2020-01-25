@@ -14,6 +14,7 @@ public class ArrayListMethods {
         
         lst.add(12L);
         lst.add(100L);
+        lst.add(150L);
         lst.add(200L);
         System.out.println("lst = " + lst);
 
@@ -29,5 +30,14 @@ public class ArrayListMethods {
             sum += lst.get(i);
         }
         System.out.println("The sum of ArrayList is : "+sum);
+        
+        lst.add(2,125L);
+        System.out.println("lst = " + lst);
+        
+        ArrayList<Integer> lst2 = new ArrayList<>();
+        lst2.add(null);
+        lst2.add(null);
+        System.out.println("lst2 = " + lst2);
+        System.out.println(lst2.isEmpty());
     }
 }

@@ -34,7 +34,7 @@ public class ArraysMethodSorting {
         // SORT METHOD DOES NOT WORK FOR BOOLEAN ARRAY
         boolean[] fiveSwitchOnOffs = {true, false, false, true, true};
         System.out.println(Arrays.toString(fiveSwitchOnOffs));
-        // Arrays.sort(fiveSwitchOnOffs); DOES NOT WORK FOR BOOLEAN ARRAY !!!
+        // Arrays.sort(fiveSwitchOnOffs); // DOES NOT WORK FOR BOOLEAN ARRAY !!!
 
         // Arrays.sort(arrObject) does not return a value that we can store
 

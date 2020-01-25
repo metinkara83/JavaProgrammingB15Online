@@ -12,8 +12,8 @@ public class OfficeHour {
 			output:
 				true
 
-    2. Write a program that will remove all the dupplicates from a string
-				Do it withg Arrays only
+    2. Write a program that will remove all the duplicates from a string
+				Do it with Arrays only
 
 	3. given the array of names:
 			String[] names = { "Ahmed", "John", "Eric", "Ahmed", "Hassan"};
@@ -59,7 +59,7 @@ public class OfficeHour {
                 System.out.println(i); //0  1  2
 
                 if(i == 2 ) {
-                    break;  // exits the loop IMMEDIETLY
+                    break;  // exits the loop IMMEDIATELY
                 }
 
                 //    System.out.println(i); //0 1
@@ -89,15 +89,15 @@ public class OfficeHour {
             System.out.println( str1.equals(str2) ); // false
 
             System.out.println("================================");
-            // task02: Write a program that will remove all the dupplicated characters from a string. (DO it with arrays
-            String s1 = "aabbcc";    // expected result:abcd
+            // task02: Write a program that will remove all the duplicated characters from a string. (DO it with arrays
+            String s1 = "aabbcc";    // expected result:abc
             String s2 = "";   // we store non duplicated characters in it
 //          s2 ="abc"
 
             for(int i = 0; i < s1.length(); i++){
                 String eachChar =""+ s1.charAt(i);  //b
                 if( !s2.contains(eachChar) ) {
-                    s2 += eachChar;  // we only concat the character if that character is not exist in s2
+                    s2 += eachChar;  // we only concat the character if that character does not exist in s2
                     //s2: "a"
                 }
 

@@ -4,12 +4,12 @@ public class Pet {
 //    Pet
 //          attributes
 //             type
-//              name
+//             name
 //          constructor :
 //              no arg constructor
 //                  set the type to "unknown"
 //                  set the name to "noname"
-//            2 args constructor
+//              2 args constructor
 //                  set the name and breed to what the caller passed
 //
 //    behaviours
@@ -82,7 +82,7 @@ public class Pet {
     public static void showGeneralPetInfo(){
         System.out.println("Pets are friends of Humans");
         // This will not work
-        // Static methid cannot access anything static
+        // Static method cannot access anything other than static
 //        System.out.println(name);
     }
 }

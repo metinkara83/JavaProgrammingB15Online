@@ -49,10 +49,10 @@ public class Job implements Comparable<Job> {
     public int compareTo(Job o) {
         if (salary>o.salary){
             return 1;
-        } else if (salary<o.salary){
-            return -1;
-        } else{
+        } else if (salary==o.salary){
             return 0;
+        } else{
+            return -1;
         }
     }
 }
